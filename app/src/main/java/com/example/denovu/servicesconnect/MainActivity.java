@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.content.Intent;
 import android.view.View;
 
+import com.example.denovu.servicesconnect.services.MyFirstService;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_main, menu);
+//        getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
 
@@ -63,11 +65,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Method to start the service
     public void startService(View view) {
-        startService(new Intent(getBaseContext(), MyService.class));
+        startService(new Intent(getBaseContext(), MyFirstService.class));
     }
 
     // Method to stop the service
     public void stopService(View view) {
-        stopService(new Intent(getBaseContext(), MyService.class));
+        stopService(new Intent(getBaseContext(), MyFirstService.class));
     }
 }

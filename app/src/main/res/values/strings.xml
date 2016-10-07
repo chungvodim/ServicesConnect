@@ -3,4 +3,6 @@
     <string name="title_activity_basic">BasicActivity</string>
     <color name="opaque_red">#f00</color>
     <string name="hello">Hello!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_settings">Settings</string>
 </resources>
