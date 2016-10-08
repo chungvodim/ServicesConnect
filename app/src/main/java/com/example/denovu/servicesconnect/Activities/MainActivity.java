@@ -1,4 +1,4 @@
-package com.example.denovu.servicesconnect;
+package com.example.denovu.servicesconnect.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,9 +7,10 @@ import android.view.Menu;
 import android.content.Intent;
 import android.view.View;
 
+import com.example.denovu.servicesconnect.R;
 import com.example.denovu.servicesconnect.services.MyFirstService;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
 
     String msg = "Android : ";
